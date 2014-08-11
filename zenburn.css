@@ -1,5 +1,5 @@
 body             {background:#3f3f3f;color:#dcdccc;font-family:Source Code Pro}
-div              {float:left;width:200px;text-align:center;line-height:75px;}
+div              {float:left;width:200px;text-align:center;line-height:95px;}
 
 .Boolean         {color:#dca3a3}
 .Character       {color:#dca3a3;font-weight:bold;}
@@ -27,6 +27,7 @@ div              {float:left;width:200px;text-align:center;line-height:75px;}
 .Macro           {color:#ffcfaf;font-weight:bold;}
 .ModeMsg         {color:#ffcfaf;}
 .MoreMsg         {color:#ffffff;font-weight:bold;}
+.Normal          {color:#dcdccc;background:#3f3f3f;}
 .Number          {color:#8cd0d3}
 .Operator        {color:#f0efd0}
 .PreCondit       {color:#dfaf8f;font-weight:bold;}
