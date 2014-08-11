@@ -1,0 +1,18 @@
+<html>
+        <head>                
+                <link rel="stylesheet" href="zenburn.css">
+        </head>
+        <body id="body">
+                <script>
+                        var xs = ["Boolean","Character","Comment","Conditional","Constant","Cursor","Debug","Define","Delimiter","DiffAdd","DiffChange","DiffDelete","DiffText","Directory","ErrorMsg","Exception","Float","FoldColumn","Folded","Function","Identifier","IncSearch","Keyword","Macro","ModeMsg","MoreMsg","Number","Operator","PreCondit","PreProc","Question","Repeat","Search","SpecialChar","SpecialComment","Special","SpecialKey","Statement","StatusLine","StatusLineNC","StorageClass","String","Structure","Tag","Title","Todo","Typedef","Type","Underlined","VertSplit","VisualNOS","WarningMsg","WildMenu"];
+                        var body = document.getElementsByTagName("body")[0];
+                        function appendDiv(name) {
+                                var div = document.createElement("div");
+                                div.innerText = name;
+                                div.className = name;
+                                body.appendChild(div);
+                        }
+                        xs.map(appendDiv);
+                </script>
+        </body>
+</html>
