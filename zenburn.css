@@ -3,7 +3,7 @@ div              {float:left;width:200px;text-align:center;line-height:75px;}
 
 .Boolean         {color:#dca3a3}
 .Character       {color:#dca3a3;font-weight:bold;}
-.Comment         {color:#7f9f7f ;font-style:italic;}
+.Comment         {color:#7f9f7f;font-style:italic;}
 .Conditional     {color:#f0dfaf;font-weight:bold;}
 .Constant        {color:#dca3a3;font-weight:bold;}
 .Cursor          {color:#000d18;background:#8faf9f;font-weight:bold;}
